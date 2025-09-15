@@ -140,7 +140,6 @@ rvWeaponRocketLauncher::Think
 void rvWeaponRocketLauncher::Think ( void ) {	
 	trace_t	tr;
 	int		i;
-
 	rocketThread.Execute ( );
 
 	// Let the real weapon think first
@@ -170,7 +169,6 @@ void rvWeaponRocketLauncher::Think ( void ) {
 				proj->SetSpeed ( guideSpeedFast, (1.0f - (proj->GetSpeed ( ) - guideSpeedSlow) / (guideSpeedFast - guideSpeedSlow)) * guideAccelTime );
 			}
 		}
-
 		return;
 	}
 						
@@ -438,17 +436,23 @@ stateResult_t rvWeaponRocketLauncher::State_Idle( const stateParms_t& parms ) {
 rvWeaponRocketLauncher::State_Fire
 ================
 */
+
+
 stateResult_t rvWeaponRocketLauncher::State_Fire ( const stateParms_t& parms ) {
 	enum {
 		STAGE_INIT,
 		STAGE_WAIT,
 	};	
+
+	int randomAttacks = gameLocal.random.RandomInt(9) + 2;  
+	int randomSpread = gameLocal.random.RandomInt(15) + 5; 
+
 	switch ( parms.stage ) {
 		case STAGE_INIT:
-			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier ( PMOD_FIRERATE ));		
-			Attack ( false, 1, spread, 0, 1.0f );
-			PlayAnim ( ANIMCHANNEL_LEGS, "fire", parms.blendFrames );	
-			return SRESULT_STAGE ( STAGE_WAIT );
+			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier(PMOD_FIRERATE));
+			Attack(false, randomAttacks, randomSpread, 0, 0.0f); 
+			PlayAnim(ANIMCHANNEL_LEGS, "fire", parms.blendFrames);
+			return SRESULT_STAGE(STAGE_WAIT);
 	
 		case STAGE_WAIT:			
 			if ( wsfl.attack && gameLocal.time >= nextAttackTime && ( gameLocal.isClient || AmmoInClip ( ) ) && !wsfl.lowerWeapon ) {
