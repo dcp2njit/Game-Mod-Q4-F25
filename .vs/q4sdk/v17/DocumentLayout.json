@@ -7,59 +7,40 @@
       "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponRocketLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Actor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Healing_Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Healing_Station.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|solutionrelative:idlib\\math\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponNailgun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponNailgun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Weapon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\Rocket Launcher Mod\\def\\player.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\client\\ClientAFEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\client\\ClientAFEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SaveGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SaveGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Simd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|solutionrelative:idlib\\math\\Simd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\spawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\spawner.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,34 +50,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Projectile.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp",
-              "RelativeDocumentMoniker": "game\\Projectile.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp",
-              "RelativeToolTip": "game\\Projectile.cpp",
-              "ViewState": "AgIAALEAAAAAAAAAAAAEwOAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SysCmds.cpp",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp",
+              "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp",
+              "RelativeToolTip": "game\\gamesys\\SysCmds.cpp",
+              "ViewState": "AgIAAKEEAAAAAAAAAAAEwL0EAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-15T00:17:14.474Z",
+              "WhenOpened": "2025-09-21T01:14:38.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Projectile.h",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.h",
+              "RelativeDocumentMoniker": "game\\Projectile.h",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.h",
+              "RelativeToolTip": "game\\Projectile.h",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-21T00:45:15.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Player.cpp",
-              "RelativeDocumentMoniker": "game\\Player.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Player.cpp",
-              "RelativeToolTip": "game\\Player.cpp",
-              "ViewState": "AgIAAPsKAAAAAAAAAAAEwA8LAAAdAAAAAAAAAA==",
+              "Title": "Projectile.cpp",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp",
+              "RelativeDocumentMoniker": "game\\Projectile.cpp",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Projectile.cpp",
+              "RelativeToolTip": "game\\Projectile.cpp",
+              "ViewState": "AgIAAAwCAAAAAAAAAAAuwBgCAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T00:46:55.584Z",
+              "WhenOpened": "2025-09-20T20:35:09.659Z",
               "EditorCaption": ""
             },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Entity.h",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Entity.h",
+              "RelativeDocumentMoniker": "game\\Entity.h",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Entity.h",
+              "RelativeToolTip": "game\\Entity.h",
+              "ViewState": "AgIAANUAAAAAAAAAAAAuwNsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-20T22:05:44.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game_local.cpp",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Game_local.cpp",
+              "RelativeDocumentMoniker": "game\\Game_local.cpp",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Game_local.cpp",
+              "RelativeToolTip": "game\\Game_local.cpp",
+              "ViewState": "AgIAAE0SAAAAAAAAAAD4v1gSAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-20T22:06:55.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Weapon.cpp",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp",
+              "RelativeDocumentMoniker": "game\\Weapon.cpp",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp",
+              "RelativeToolTip": "game\\Weapon.cpp",
+              "ViewState": "AgIAAF0MAAAAAAAAAAD4v3kMAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-20T20:35:06.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientAFEntity.cpp",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.cpp",
+              "RelativeDocumentMoniker": "game\\client\\ClientAFEntity.cpp",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.cpp",
+              "RelativeToolTip": "game\\client\\ClientAFEntity.cpp",
+              "ViewState": "AgIAAJQCAAAAAAAAAAAIwKYCAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-20T22:18:51.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientAFEntity.h",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.h",
+              "RelativeDocumentMoniker": "game\\client\\ClientAFEntity.h",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\client\\ClientAFEntity.h",
+              "RelativeToolTip": "game\\client\\ClientAFEntity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-20T22:18:46.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "spawner.h",
+              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\spawner.h",
+              "RelativeDocumentMoniker": "game\\spawner.h",
+              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\spawner.h",
+              "RelativeToolTip": "game\\spawner.h",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAqwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-20T20:35:56.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -105,162 +187,10 @@
               "RelativeDocumentMoniker": "game\\weapon\\WeaponRocketLauncher.cpp",
               "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponRocketLauncher.cpp",
               "RelativeToolTip": "game\\weapon\\WeaponRocketLauncher.cpp",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAEwGcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAALsBAAAAAAAAAAAEwN0BAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-10T14:29:27.663Z",
+              "WhenOpened": "2025-09-20T20:34:59.062Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Weapon.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp",
-              "RelativeDocumentMoniker": "game\\Weapon.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Weapon.cpp",
-              "RelativeToolTip": "game\\Weapon.cpp",
-              "ViewState": "AgIAAGYCAAAAAAAAAAAEwHUCAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T01:30:38.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Actor.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Actor.cpp",
-              "RelativeDocumentMoniker": "game\\Actor.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Actor.cpp",
-              "RelativeToolTip": "game\\Actor.cpp",
-              "ViewState": "AgIAACgCAAAAAAAAAAAEwDQCAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-15T00:05:37.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Game_local.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Game_local.cpp",
-              "RelativeDocumentMoniker": "game\\Game_local.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Game_local.cpp",
-              "RelativeToolTip": "game\\Game_local.cpp",
-              "ViewState": "AgIAACIeAAAAAAAAAAAEwC0eAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T22:30:47.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Class.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\Class.cpp",
-              "RelativeDocumentMoniker": "game\\gamesys\\Class.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\Class.cpp",
-              "RelativeToolTip": "game\\gamesys\\Class.cpp",
-              "ViewState": "AgIAADoFAAAAAAAAAAAEwEUFAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T22:28:36.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeaponBlaster.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponBlaster.cpp",
-              "RelativeDocumentMoniker": "game\\weapon\\WeaponBlaster.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponBlaster.cpp",
-              "RelativeToolTip": "game\\weapon\\WeaponBlaster.cpp",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAEwHMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T03:18:15.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Healing_Station.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Healing_Station.cpp",
-              "RelativeDocumentMoniker": "game\\Healing_Station.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\Healing_Station.cpp",
-              "RelativeToolTip": "game\\Healing_Station.cpp",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T23:03:03.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Random.h",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Random.h",
-              "RelativeDocumentMoniker": "idlib\\math\\Random.h",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Random.h",
-              "RelativeToolTip": "idlib\\math\\Random.h",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAIIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-14T22:31:17.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WeaponNailgun.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponNailgun.cpp",
-              "RelativeDocumentMoniker": "game\\weapon\\WeaponNailgun.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\weapon\\WeaponNailgun.cpp",
-              "RelativeToolTip": "game\\weapon\\WeaponNailgun.cpp",
-              "ViewState": "AgIAAKwCAAAAAAAAAAAAALsCAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-14T02:42:43.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "player.def",
-              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\Rocket Launcher Mod\\def\\player.def",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\Rocket Launcher Mod\\def\\player.def",
-              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\Rocket Launcher Mod\\def\\player.def",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\Rocket Launcher Mod\\def\\player.def",
-              "ViewState": "AQIAAD4EAAAAAAAAAAD4v08EAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
-              "WhenOpened": "2025-09-11T01:12:18.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SysCmds.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp",
-              "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SysCmds.cpp",
-              "RelativeToolTip": "game\\gamesys\\SysCmds.cpp",
-              "ViewState": "AQIAAAAFAAAAAAAAAAAswM4EAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T22:28:45.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SaveGame.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SaveGame.cpp",
-              "RelativeDocumentMoniker": "game\\gamesys\\SaveGame.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\game\\gamesys\\SaveGame.cpp",
-              "RelativeToolTip": "game\\gamesys\\SaveGame.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T22:28:41.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Simd.cpp",
-              "DocumentMoniker": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Simd.cpp",
-              "RelativeDocumentMoniker": "idlib\\math\\Simd.cpp",
-              "ToolTip": "C:\\Users\\denap\\git\\Game-Mod-Q4-F25\\idlib\\math\\Simd.cpp",
-              "RelativeToolTip": "idlib\\math\\Simd.cpp",
-              "ViewState": "AQIAAOcFAAAAAAAAAAAUwOwFAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T22:18:48.893Z"
             }
           ]
         }

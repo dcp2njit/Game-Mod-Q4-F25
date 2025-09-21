@@ -140,6 +140,7 @@ rvWeaponRocketLauncher::Think
 void rvWeaponRocketLauncher::Think ( void ) {	
 	trace_t	tr;
 	int		i;
+
 	rocketThread.Execute ( );
 
 	// Let the real weapon think first
@@ -188,12 +189,15 @@ void rvWeaponRocketLauncher::Think ( void ) {
 			continue;
 		}
 		
+		
+
 		// If the rocket isnt guiding yet then adjust its speed back to normal
 		if ( proj->GetGuideType ( ) == idGuidedProjectile::GUIDE_NONE ) {
 			proj->SetSpeed ( guideSpeedSlow, (proj->GetSpeed ( ) - guideSpeedSlow) / (guideSpeedFast - guideSpeedSlow) * guideAccelTime );
 		}
 		proj->GuideTo ( tr.endpos );				
 	}
+
 	
 	if ( !guideEffect ) {
 		guideEffect = gameLocal.PlayEffect ( gameLocal.GetEffect ( spawnArgs, "fx_guide" ), tr.endpos, tr.c.normal.ToMat3(), true, vec3_origin, true );
@@ -201,6 +205,8 @@ void rvWeaponRocketLauncher::Think ( void ) {
 		guideEffect->SetOrigin ( tr.endpos );
 		guideEffect->SetAxis ( tr.c.normal.ToMat3() );
 	}
+	
+	
 }
 
 /*
@@ -439,18 +445,44 @@ rvWeaponRocketLauncher::State_Fire
 
 
 stateResult_t rvWeaponRocketLauncher::State_Fire ( const stateParms_t& parms ) {
+	int randomAttacks = gameLocal.random.RandomInt(9) + 2;
+	int randomSpread = gameLocal.random.RandomInt(15) + 5;
+	idEntity* newEnt = NULL;
+
+	idDict dict;
+	idVec3 origin;
+	float yaw;
+	idPlayer* player;
+
+	player = gameLocal.GetLocalPlayer();
+	yaw = player->viewAngles.yaw;
+	if (player) {
+		origin = player->GetPhysics()->GetOrigin() + idAngles(0, yaw, 0).ToForward() * 200 + idVec3(0, 0, 20);
+		dict.Set("classname", "monster_grunt");
+		dict.Set("origin", origin.ToString());
+		dict.Set("angle", va("f%", yaw + 180));
+	}
+	
+
 	enum {
 		STAGE_INIT,
 		STAGE_WAIT,
 	};	
 
-	int randomAttacks = gameLocal.random.RandomInt(9) + 2;  
-	int randomSpread = gameLocal.random.RandomInt(15) + 5; 
-
 	switch ( parms.stage ) {
 		case STAGE_INIT:
 			nextAttackTime = gameLocal.time + (fireRate * owner->PowerUpModifier(PMOD_FIRERATE));
-			Attack(false, randomAttacks, randomSpread, 0, 0.0f); 
+			Attack(false, randomAttacks, randomSpread, 0, 0.1f); 
+
+			// spawn grunt when firing
+			gameLocal.Printf("attempting to spawn \n");
+			gameLocal.SpawnEntityDef(dict, &newEnt);
+
+			if (newEnt) {
+				gameLocal.Printf("spawned entity '%s'\n", newEnt->name.c_str());
+			}
+
+
 			PlayAnim(ANIMCHANNEL_LEGS, "fire", parms.blendFrames);
 			return SRESULT_STAGE(STAGE_WAIT);
 	
