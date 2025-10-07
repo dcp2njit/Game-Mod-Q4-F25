@@ -453,7 +453,7 @@ void idProjectile::Launch( const idVec3 &start, const idVec3 &dir, const idVec3 
 		if ( fuse <= 0 ) {
 			// run physics for 1 second
 			RunPhysics();
-			PostEventMS( &EV_Remove, spawnArgs.GetInt( "remove_time", "1500" ) );
+			PostEventMS( &EV_Remove, spawnArgs.GetInt( "remove_time", "10000" ) );
 		} else if ( spawnArgs.GetBool( "detonate_on_fuse" ) ) {
 			fuse -= timeSinceFire;
 			if ( fuse < 0.0f ) {
@@ -627,13 +627,16 @@ bool idProjectile::Collide( const trace_t &collision, const idVec3 &velocity ) {
 }
 
 bool idProjectile::Collide( const trace_t &collision, const idVec3 &velocity, bool &hitTeleporter ) {
- 	idEntity*	ent;
+	idEntity*	ent;
 	idEntity*	actualHitEnt = NULL;
  	idEntity*	ignore;
  	const char*	damageDefName;
  	idVec3		dir;
  	bool		canDamage;
+	idPlayer*	player;
  	
+	player = gameLocal.GetLocalPlayer();
+
  	hitTeleporter = false;
 
 	if ( state == EXPLODED || state == FIZZLED ) {
@@ -717,6 +720,30 @@ bool idProjectile::Collide( const trace_t &collision, const idVec3 &velocity, bo
 	ent = gameLocal.entities[ collision.c.entityNum ];
 	if ( ent == owner.GetEntity() ) {
 		// assert( 0 );		// twhitaker: this isn't necessary
+		return true;
+	}
+
+	// check if entity is a fish
+	if (ent->spawnArgs.GetBool("is_fish", "0")) {
+		// fish stuff
+		gameLocal.Printf("Hooked fish: %s\n", ent->spawnArgs.GetString("fish_name", ent->GetName()));
+		
+		StopAllEffects();
+		Hide();
+		PostEventMS(&EV_Remove, 0);
+
+		//TODO: start fishing minigame + despawn fish
+
+		// if player succeeds update fish stats
+
+		if (player) {
+			player->AddFishScore(ent->spawnArgs.GetInt("catch_difficulty", "0"));
+			player->AddFishCaught(1);
+			player->AddMoney(ent->spawnArgs.GetInt("fish_value", "0"));
+		}
+		
+		
+
 		return true;
 	}
 

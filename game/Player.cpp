@@ -1083,7 +1083,7 @@ idPlayer::idPlayer() {
 
 	doInitWeapon			= false;
 	noclip					= false;
-	godmode					= false;
+	godmode					= true;
 	undying					= g_forceUndying.GetBool() ? !gameLocal.isMultiplayer : false;
 
 	spawnAnglesSet			= false;
@@ -1342,6 +1342,8 @@ idPlayer::idPlayer() {
 	teamAmmoRegenPending	= false;
 	teamDoubler			= NULL;		
 	teamDoublerPending		= false;
+
+	fl.notarget				= true;
 }
 
 /*
@@ -2055,6 +2057,20 @@ void idPlayer::Spawn( void ) {
 //RITUAL END
 
 	itemCosts = static_cast< const idDeclEntityDef * >( declManager->FindType( DECL_ENTITYDEF, "ItemCostConstants", false ) );
+	
+	// set fishing game variables
+	fishScore = 0;
+	money = 0;
+	fishCaught = 0;
+	currentRod = "Starter Rod";
+	rodLevel = 1;
+	reelSpeed = 1;
+	baitQuality = 0;
+
+
+	// make sure enemies do not chase player
+	fl.notarget = true;
+
 }
 
 /*
@@ -2326,6 +2342,16 @@ void idPlayer::Save( idSaveGame *savefile ) const {
 	savefile->WriteBool( objectivesEnabled );
 
 	savefile->WriteBool( flagCanFire );
+
+	// save fishing variables
+	savefile->WriteInt( fishScore );
+	savefile->WriteInt( money );
+	savefile->WriteInt( fishCaught );
+	savefile->WriteString( currentRod );
+	savefile->WriteInt( rodLevel );
+	savefile->WriteInt( reelSpeed );
+	savefile->WriteInt( baitQuality );
+
 	
 	// TOSAVE: const idDeclEntityDef*	cachedWeaponDefs [ MAX_WEAPONS ];	// cnicholson: Save these?
 	// TOSAVE: const idDeclEntityDef*	cachedPowerupDefs [ POWERUP_MAX ];
@@ -2603,6 +2629,16 @@ void idPlayer::Restore( idRestoreGame *savefile ) {
 
 	savefile->ReadBool( flagCanFire );
 
+
+	// restore fishing variables
+	savefile->ReadInt(fishScore);
+	savefile->ReadInt(money);
+	savefile->ReadInt(fishCaught);
+	savefile->ReadString(currentRod);
+	savefile->ReadInt(rodLevel);
+	savefile->ReadInt(reelSpeed);
+	savefile->ReadInt(baitQuality);
+
 	// set the pm_ cvars
 	const idKeyValue	*kv;
 	kv = spawnArgs.MatchPrefix( "pm_", NULL );
@@ -2762,6 +2798,10 @@ Chooses a spawn location and spawns the player
 void idPlayer::SpawnFromSpawnSpot( void ) {
 	idVec3		spawn_origin;
 	idAngles	spawn_angles;
+
+	// make sure enemies do not chase player
+	fl.notarget = true;
+
 	
 	if( !SelectSpawnPoint( spawn_origin, spawn_angles ) ) {
 		forceRespawn = true;
@@ -2817,6 +2857,10 @@ void idPlayer::SpawnToPoint( const idVec3 &spawn_origin, const idAngles &spawn_a
 	if ( inventory.armor > inventory.maxarmor ) {
 		nextArmorPulse = gameLocal.time + ARMOR_PULSE;
 	}		
+	
+
+	// make sure enemies do not chase player
+	fl.notarget = true;
 
 	fl.noknockback = false;
 	// stop any ragdolls being used
@@ -3437,6 +3481,12 @@ void idPlayer::UpdateHudStats( idUserInterface *_hud ) {
 	}
 	
 	_hud->StateChanged( gameLocal.time );
+
+	// update fish hud
+	_hud->SetStateInt("player_fishscore", fishScore);
+	_hud->SetStateInt("player_fishcaught", fishCaught);
+	_hud->SetStateInt("player_money", money);
+
 }
 
 /*
@@ -14076,5 +14126,36 @@ int idPlayer::CanSelectWeapon(const char* weaponName)
 
 	return weaponNum;
 }
+
+/* 
+=========================================================
+	FISHING FUNCTIONS
+=========================================================
+*/
+
+void idPlayer::AddFishCaught(int amount) {
+	fishCaught += amount;
+}
+
+void idPlayer::AddFishScore(int amount) {
+	fishScore += amount;
+}
+void idPlayer::AddMoney(int amount) {
+	money += amount;
+}
+void idPlayer::SetCurrentRod(idStr currRod) {
+	currentRod = currRod;
+}
+void idPlayer::SetRodLevel(int level) {
+	rodLevel = level;
+}
+void idPlayer::SetReelSpeed(int speed) {
+	reelSpeed = speed;
+}
+void idPlayer::SetBaitQuality(int qualitylvl) {
+	baitQuality = qualitylvl;
+}
+
+
 
 // RITUAL END

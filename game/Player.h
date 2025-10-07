@@ -1153,8 +1153,28 @@ private:
 	stateResult_t			State_Legs_Fall					( const stateParms_t& parms );
 	stateResult_t			State_Legs_Land					( const stateParms_t& parms );
 	stateResult_t			State_Legs_Dead					( const stateParms_t& parms );
-	
- 	CLASS_STATES_PROTOTYPE( idPlayer );
+ 	
+	// fishing game variables
+	int						fishScore;
+	int						money;
+	int						fishCaught;
+	idStr					currentRod;
+	int						rodLevel;
+	int						reelSpeed;
+	int						baitQuality;
+
+	// fish functions
+public:
+	void					AddFishCaught					( int amount );
+	void					AddFishScore					( int amount );
+	void					AddMoney						( int amount );
+	void					SetCurrentRod					( idStr currRod );
+	void					SetRodLevel						( int level );
+	void					SetReelSpeed					( int speed );
+	void					SetBaitQuality					( int qualitylvl );
+
+
+	CLASS_STATES_PROTOTYPE( idPlayer );
 };
 
 ID_INLINE bool idPlayer::IsBeingTalkedTo( void ) {

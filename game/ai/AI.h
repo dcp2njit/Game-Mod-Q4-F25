@@ -887,6 +887,11 @@ public:
 	virtual void				Prethink						( void );
 	virtual void				Postthink						( void );
 
+	// fish variables
+	bool						isFish;
+	int							fishRarity;
+
+
 	/*
 	===============================================================================
 							  Threat Management
