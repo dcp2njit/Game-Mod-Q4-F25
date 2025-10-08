@@ -37,6 +37,10 @@ Try to catch the most fish before the end of each day! Use the money earned to p
 ### Score System
 - Successfully caught fish increases your **money** and **score**
 
+### Time-based Gameplay
+- In-game days last 60 seeconds
+- Catch as many fish within the the time to set or beat your highscore
+
 ### Shop / Upgrade System
 - Money can be used to purchase upgrades for fishing equipment.
 - Upgrades can make it easier to reel in fish, find rarer fish, etc.
